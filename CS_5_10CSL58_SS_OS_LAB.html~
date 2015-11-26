@@ -3,6 +3,37 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Untitled Document</title>
+
+<!--
+.font_Verdana {
+	font-family: Tim, Geneva, sans-serif;
+}
+h1 {
+	color: #930;
+} 
+h2 {
+	color: #C30
+}
+h3{
+	color: #66F;
+}
+h4 {
+	color: #369;
+} 
+hr {
+	color: #69C;
+}
+p{
+	text-align : justify;
+}
+p.footer_best {
+	text-align: center;
+}
+p.Syllabus_Code {
+	text-align: center;
+}	
+-->
+</style>
 </head>
 
 <body bgcolor="#fff">
