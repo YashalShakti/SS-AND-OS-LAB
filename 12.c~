@@ -28,7 +28,7 @@ void bankers(){
 										
 					done++;
 					flag=1;
-					p[b++]=j;
+					p[b++]=i;
 					f[i]=1;
 
 					for(l=0;l<nr;l++)
@@ -40,9 +40,9 @@ void bankers(){
 	
 	if(done==np) {
 		printf("\nSafe sequence is : \n\n\n");
-		for(l=0;l<nr-1;l++)
-			printf("[%d]-->",p[l]);
-		printf("[%d]\n\n\n",p[++l]);
+		for(l=0;l<np;l++)
+			printf("[%d]\t",p[l]);
+		
 	}
 	else {
 		printf("\nUnsafe\n");
