@@ -28,7 +28,7 @@ void bankers(){
 										
 					done++;
 					flag=1;
-					p[b++]=j;
+					p[b++]=i;
 					f[i]=1;
 
 					for(l=0;l<nr;l++)
@@ -40,9 +40,9 @@ void bankers(){
 	
 	if(done==np) {
 		printf("\nSafe sequence is : \n\n\n");
-		for(l=0;l<nr-1;l++)
-			printf("[%d]-->",p[l]);
-		printf("[%d]\n\n\n",p[++l]);
+		for(l=0;l<np;l++)
+			printf("[%d]\t",p[l]);
+		
 	}
 	else {
 		printf("\nUnsafe\n");
@@ -95,4 +95,38 @@ int main() {
 	 return -1;
 }
 		
+/*
+Enter the number of processess
+5
+Enter the number of resources
+3
+Enter the max resources needed
+7 5 3
+3 2 2
+9 0 2
+2 2 2
+4 3 3
+Enter the allocated resources
+0 1 0
+2 0 0
+3 0 2
+2 1 1
+0 0 2
+The need matrix is 
+
+7 4 3 
+1 2 2 
+6 0 0 
+0 1 1 
+4 3 1 
+
+Enter the available resources
+3 3 2
+
+Safe sequence is : 
+
+
+[1]	[3]	[4]	[0]	[2]	
+
+*/		
 		
